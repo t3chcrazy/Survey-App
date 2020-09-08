@@ -1,0 +1,29 @@
+.optionField {
+    display: flex;
+}
+
+.optionField > input {
+    flex: 6;
+}
+
+.buttonContainer {
+    display: inherit;
+    flex: 1;
+}
+
+.buttonContainer > button {
+    background: white;
+    color: red;
+    border: none;
+    outline: none;
+    flex: 1;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.buttonContainer > button:hover {
+    background-color: grey;
+}
